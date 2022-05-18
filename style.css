@@ -1,0 +1,27 @@
+canvas{
+    border: 2px ridge black;
+    border-radius: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: -200px;
+    background-color: rgba(59, 165, 240, 0.551);
+}
+
+@keyframes example{
+    from{
+        box-shadow: 3px 3px 20px rgb(226, 126, 83)
+    }
+    to{
+        box-shadow: 3px 3px 20px orangered;
+    }
+}
+
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+#header{
+    font-size: 40px;
+}
